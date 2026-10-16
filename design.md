@@ -25,9 +25,10 @@ Multi-agent (vs. Single agent): The trailer operates around other road users, in
 Question 2: Directed Graph, Search Tree & Abstraction (Circular Nodes)
 Directed Graph:
 
-
+![Directed graph](Screenshot 2026-10-17 002735.png)
 
 Search Tree:
+![Search tree](Screenshot 2026-10-17 003521.png)
 
 Question 3: 
 Route A
