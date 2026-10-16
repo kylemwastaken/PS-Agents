@@ -25,11 +25,34 @@ Multi-agent (vs. Single agent): The trailer operates around other road users, in
 Question 2: Directed Graph, Search Tree & Abstraction (Circular Nodes)
 Directed Graph:
 
+
+
 Search Tree:
 
 Question 3: 
+Route A
+Path sequence: Nairobi -> Naivasha -> Nakuru -> Eldoret -> Kitale -> Kakamega -> Kisumu
+Step cost sum: 89.5 + 71 + 156 + 71 + 110 + 50 = 547.5 km
 
+Route B
+Path sequence: Nairobi -> Naivasha -> Nakuru -> Kericho -> Sondu -> Kisumu
+Step cost sum: 89.5 + 71 + 45 + 52.6 = 365.1 km
 
+Route C
+Path sequence: Nairobi -> Narok -> Bomet -> Kericho -> Sondu -> Kisumu
+Step cost sum: 141.5 + 81.5 + 74.25 + 45 + 52.6  = 394.85 km
+
+Route D
+Path sequence: Nairobi -> Narok -> Bomet -> Kericho -> Kisii -> Sondu -> Kisumu
+Step cost sum: 141.5 + 81.5 + 74.25 + 87.2 + 61.3 + 52.6 = 498.35 km
+
+Route E
+Path sequence: Nairobi -> Thika -> Nyeri -> Nyahururu -> Nakuru -> Kericho -> Sondu -> Kisumu
+Step cost sum: 44 + 110 + 104 + 64 + 107 + 45 +  52.6 = 526.6 km
+
+Route F
+Path sequence: Nairobi -> Thika -> Nyeri -> Nyahururu -> Nakuru -> Kericho -> Kisii -> Sondu -> Kisumu
+Step cost sum:  44 + 110 + 104 + 64 + 107 + 87.2 + 61.3 + 52.6 = 630.1 km
 
 
 Optimal Path Conclusion: The optimal path the trailer can take is Route B (Nairobi -> Naivasha -> Nakuru -> Kericho -> Sondu -> Kisumu), which has the lowest total path cost of approximately 365.1 km.
